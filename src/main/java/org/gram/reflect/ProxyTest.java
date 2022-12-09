@@ -7,6 +7,10 @@ import java.lang.reflect.Proxy;
 public class ProxyTest {
 
     //动态代理测试
+//    动态代理对比静态代理：
+//    静态代理和代理对象必须实现同一个接口，动态代理不需要；动态代理是在运行时创建的。
+//    动态代理原理：
+//    运行时动态生成代理类以class形式，然后用类加载器加载编译（类加载器加载的是byte[]，所以class类并不一定需要存在磁盘）
     public void p1(){
         B b1=new B("a");
         A a=(A) Proxy.newProxyInstance(B.class.getClassLoader(),B.class.getInterfaces(),new C(b1));

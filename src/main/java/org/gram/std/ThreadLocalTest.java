@@ -13,7 +13,7 @@ public class ThreadLocalTest {
     }
 
     static class Thread1 extends Thread{
-        private ThreadLocal<Integer> threadLocal=new ThreadLocal<>();
+        private final ThreadLocal<Integer> threadLocal=new ThreadLocal<>();
 
         @Override
         public void run() {

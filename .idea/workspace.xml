@@ -4,83 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18ebfb9a-644c-4d27-9ba0-dbc0b3342285" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/algorithms/AStar/AStarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/algorithms/Graph/GraphSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/algorithms/Graph/TopologicalSortingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/algorithms/MinimumSpanningTree/KruskalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/algorithms/Morris/MorrisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/algorithms/dynamicProgram/DP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/algorithms/greedy/GD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/cellnet/queue/CellnetQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/cellnet/queue/CellnetQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/ArrayBlockingQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/AtomicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/ConcurrentHashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/ConcurrentLinkedDequeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/ConcurrentLinkedQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/ConcurrentSkipListMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/ConcurrentSkipListSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/CopyOnWriteArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/CopyOnWriteArraySetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/CountDownLatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/CyclicBarrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/LinkedBlockingDequeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/LinkedBlockingQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/LinkedTransferQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/PriorityBlockingQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/ReentrantLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/ReentrantReadWriteLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/ScheduledThreadPoolExecutorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/SemaphoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/concurrent_test/ThreadPoolExecutorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/generics/GenericsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/gson/GsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/jackson/JacksonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/java8/FunctionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/java8/LambdaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/java8/OptionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/java8/StreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/reflect/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/reflect/ReflectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/std/ArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/std/ByteBufferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/std/HashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/std/IOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/std/PriorityQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/std/SetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/std/SyncTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/std/ThreadLocalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/std/ThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/std/TimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/std/TreeMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/std/VolatileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/t1/T1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/t2/T2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/type/AnnotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/type/ArrayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/type/BasicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/type/ClassLoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/type/ClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/type/ControlFlowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/type/FormatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/type/ObjectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/type/SortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/type/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/type/VarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/type/interfaces/TestInterface1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/type/statics/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/type/statics/StaticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gram/websocket/WebSocketTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/gram/AppTest.java" afterDir="false" />
+    <list default="true" id="18ebfb9a-644c-4d27-9ba0-dbc0b3342285" name="Changes" comment="initial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gram/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gram/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gram/reflect/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gram/reflect/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gram/std/ThreadLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gram/std/ThreadLocalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gram/type/AnnotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gram/type/AnnotationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,22 +39,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/杨舒/IdeaProjects/JavaTest/src/main/java/org/gram",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/杨舒/IdeaProjects/JavaTest/src/main/java/org/gram&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\杨舒\IdeaProjects\JavaTest\src\main\java\org\gram" />
       <recent name="C:\Users\杨舒\IdeaProjects\JavaTest" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.gram.App" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.gram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -136,6 +85,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669212093487</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1669251624547</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669251624547</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,5 +105,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
 </project>

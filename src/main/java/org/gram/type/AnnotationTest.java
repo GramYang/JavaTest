@@ -2,7 +2,9 @@ package org.gram.type;
 
 import java.lang.annotation.*;
 import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
+import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -103,4 +105,31 @@ public class AnnotationTest {
             }
         }
     }
+
+    public void at2(){
+        Test test=new Test();
+        Method[] methods=test.getClass().getDeclaredMethods();
+        for(Method method:methods){
+            Test1 test1=method.getAnnotation(Test1.class);
+            System.out.println(Arrays.toString(test1.value()));
+        }
+    }
+
+    @Retention(RetentionPolicy.RUNTIME)
+    @Target(ElementType.METHOD)
+    private @interface Test1{
+        String[] value() default {};
+
+    }
+
+    private static class Test{
+        @Test1
+        private void op1(){}
+
+        @Test1({"a","b"})
+        private void op2(){}
+    }
+
+
+
 }

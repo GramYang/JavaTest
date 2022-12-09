@@ -70,8 +70,9 @@ public class App {
 //        VarTest v=new VarTest();
 //        v.TypeTest();
 //        v.BitOpt();
-//        AnnotationTest at=new AnnotationTest();
+        AnnotationTest at=new AnnotationTest();
 //        at.at1();
+        at.at2();
 //        FormatTest ft=new FormatTest();
 //        ft.Format1();
 //        StringTest st=new StringTest();
