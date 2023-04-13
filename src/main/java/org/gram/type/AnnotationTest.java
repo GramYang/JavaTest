@@ -111,7 +111,7 @@ public class AnnotationTest {
         Method[] methods=test.getClass().getDeclaredMethods();
         for(Method method:methods){
             Test1 test1=method.getAnnotation(Test1.class);
-            System.out.println(Arrays.toString(test1.value()));
+            System.out.println(Arrays.toString(test1.value())+test1.isOk());
         }
     }
 
@@ -119,14 +119,14 @@ public class AnnotationTest {
     @Target(ElementType.METHOD)
     private @interface Test1{
         String[] value() default {};
-
+        boolean isOk() default false;
     }
 
     private static class Test{
         @Test1
         private void op1(){}
 
-        @Test1({"a","b"})
+        @Test1(value = {"a","b"},isOk = true)
         private void op2(){}
     }
 

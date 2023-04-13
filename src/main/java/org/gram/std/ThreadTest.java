@@ -50,4 +50,25 @@ public class ThreadTest {
             }
         }
     }
+
+    public void t1(){
+        try{
+            Thread.sleep(5000);
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try{
+                        Thread.sleep(10000);
+                    }catch (InterruptedException e){
+                        e.printStackTrace();
+                    }
+                    System.out.println("sub thread end");
+                }
+            });
+            System.out.println("main thread end");
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
+
+    }
 }

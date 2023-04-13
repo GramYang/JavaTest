@@ -9,10 +9,12 @@ import org.gram.algorithms.dynamicProgram.DP;
 import org.gram.algorithms.greedy.GD;
 import org.gram.cellnet.queue.CellnetQueueTest;
 import org.gram.concurrent_test.*;
+import org.gram.fastjson.FastjsonTest;
 import org.gram.generics.GenericsTest;
 import org.gram.gson.GsonTest;
 import org.gram.jackson.JacksonTest;
 import org.gram.java8.*;
+import org.gram.netty.ByteBufTest;
 import org.gram.reflect.*;
 import org.gram.std.*;
 import org.gram.t1.T1;
@@ -54,6 +56,9 @@ public class App {
 //        jackson
 //        JacksonTest jacksonTest=new JacksonTest();
 //        jacksonTest.t1();
+//        fastjson
+//        FastjsonTest fastjsonTest=new FastjsonTest();
+//        fastjsonTest.t1();
         //cellnet的java实现
         //阻塞消息队列
 //        CellnetQueueTest cellnetQueueTest=new CellnetQueueTest();
@@ -70,9 +75,9 @@ public class App {
 //        VarTest v=new VarTest();
 //        v.TypeTest();
 //        v.BitOpt();
-        AnnotationTest at=new AnnotationTest();
+//        AnnotationTest at=new AnnotationTest();
 //        at.at1();
-        at.at2();
+//        at.at2();
 //        FormatTest ft=new FormatTest();
 //        ft.Format1();
 //        StringTest st=new StringTest();
@@ -122,6 +127,7 @@ public class App {
 //        ThreadTest tt2=new ThreadTest();
 //        tt2.joinTest();
 //        tt2.yieldTest();
+//        tt2.t1();
 //        SetTest hst=new SetTest();
 //        hst.hashSetTest();
 //        hst.treeSetTest();
@@ -143,6 +149,8 @@ public class App {
 //        tt.tt1();
 //        tt.tt2();
 //        tt.t3();
+//        RegexTest regexTest=new RegexTest();
+//        regexTest.t1();
 
         //反射
 //        ReflectionTest rt=new ReflectionTest();
@@ -150,6 +158,7 @@ public class App {
 //        rt.t2();
 //        rt.t3();
 //        rt.t4();
+//        rt.t5();
 //        ProxyTest proxyTest=new ProxyTest();
 //        proxyTest.p1();
 
@@ -217,5 +226,11 @@ public class App {
 //        cellnetQueueTest.c1();
 //        cellnetQueueTest.c2();
         //loop，直接用java的TimerTask或者ScheduledThreadPoolExecutor就行！
+
+        //netty接口测试
+//        ByteBufTest byteBufTest=new ByteBufTest();
+//        byteBufTest.b1();
+//        byteBufTest.b2();
+//        byteBufTest.b3();
     }
 }

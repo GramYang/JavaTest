@@ -260,4 +260,22 @@ public class ReflectionTest {
             System.out.println("this is bag2");
         }
     }
+
+    //反射生成内部类实例，非静态内部类实例化需要传入外部类实例
+    public void t5(){
+        try{
+            Class<?> innerClass=Class.forName("org.gram.reflect.ReflectionTest$Outer$Inner1");
+            Class<?> outerClass=innerClass.getEnclosingClass();
+            Object o=innerClass.getDeclaredConstructors()[0].newInstance(outerClass.newInstance());
+            System.out.println(o);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+    }
+
+
+    static class Outer{
+        class Inner1{}
+    }
 }

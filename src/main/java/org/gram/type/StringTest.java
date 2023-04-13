@@ -7,9 +7,21 @@ import java.util.Locale;
 
 public class StringTest {
     //字符串操作接口
+//    printf输出格式
+//    %s字符串
+//    %d十进制整数
+//    %o八进制整数
+//    %x十六进制整数
+//    %X大写十六进制整数
+//    %f浮点数
+//    %b布尔值
+//    %c字符
+//    %d带符号十进制整数
     public void st1(){
         String s="123132123132";
-        System.out.println(Arrays.toString(s.getBytes(StandardCharsets.UTF_8)));//[49, 50, 51, 49, 51, 50, 49, 50, 51, 49, 51, 50]，这里打印的格式和go差不多
+        byte[] bytes=s.getBytes(StandardCharsets.UTF_8);
+        System.out.println(Arrays.toString(bytes));//[49, 50, 51, 49, 51, 50, 49, 50, 51, 49, 51, 50]，这里打印的格式和go差不多
+        System.out.println(new String(bytes));
         String s1="ASADASD";
         String s2="asdasds";
         System.out.printf("%s %s\n",s1.toLowerCase(Locale.ROOT),s2.toUpperCase(Locale.ROOT));//asadasd ASDASDS
